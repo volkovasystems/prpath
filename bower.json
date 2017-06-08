@@ -1,0 +1,30 @@
+{
+  "name": "prpath",
+  "version": "0.0.0",
+  "description": "Get parent path.",
+  "main": "prpath.deploy.js",
+  "support": "prpath.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "get",
+    "parent",
+    "path",
+    "prpath"
+  ],
+  "homepage": "https://github.com/volkovasystems/prpath",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "falzy": "^0.20.0",
+    "mtch": "^0.2.0",
+    "protype": "^0.22.0"
+  }
+}

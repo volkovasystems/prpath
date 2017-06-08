@@ -1,0 +1,43 @@
+{
+  "name": "prpath",
+  "version": "0.0.0",
+  "description": "Get parent path.",
+  "main": "prpath.js",
+  "support": "prpath.support.js",
+  "deploy": "prpath.deploy.js",
+  "browser": "prpath.deploy.js",
+  "scripts": {
+    "build": "babel prpath.js --out-file prpath.support.js --source-maps && webpack --progress --display-modules",
+    "test": "mocha prpath-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/prpath.git"
+  },
+  "keywords": [
+    "get",
+    "parent",
+    "path",
+    "prpath"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/prpath/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/prpath#readme",
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "falzy": "^0.20.0",
+    "mtch": "^0.2.0",
+    "protype": "^0.22.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "source-map-loader": "^0.2.1",
+    "webpack": "^2.6.1"
+  }
+}

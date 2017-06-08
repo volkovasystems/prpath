@@ -1,0 +1,2 @@
+# prpath
+Get parent path.
